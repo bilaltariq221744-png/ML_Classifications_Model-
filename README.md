@@ -6,25 +6,15 @@ Implementation and side-by-side benchmarking of core machine learning algorithms
 Most ML tutorials show you *how* to call `.fit()`. This repo focuses on *why* each algorithm behaves the way it does — bias/variance tradeoffs, decision boundaries, and where each one breaks down — through direct implementation and comparison.
 
 ## Algorithms covered
-| Algorithm | Type | 
+| Algorithm | Type | Notebook |
 |---|---|---|
-| Linear Regression | Regression | 
-| Logistic Regression | Classification | 
-| Decision Trees | Classification | 
-| Random Forest | Classification | 
-| SVM | Classification | 
-| KNN & Naive Bayes | Classification | 
+| Linear Regression | Regression | `01_linear_regression.ipynb` |
+| Logistic Regression | Classification | `02_logistic_regression.ipynb` |
+| Decision Trees | Classification | `03_decision_trees.ipynb` |
+| Random Forest | Classification | `04_random_forest.ipynb` |
+| SVM | Classification | `05_svm.ipynb` |
+| KNN & Naive Bayes | Classification | `06_knn_naive_bayes.ipynb` |
 
-## Results snapshot
-| Model | Accuracy | F1-Score | Notes |
-|---|---|---|---|
-| Logistic Regression | 0.xx | 0.xx | Fast, interpretable baseline |
-| Random Forest | 0.xx | 0.xx | Best overall performance |
-| SVM | 0.xx | 0.xx | Strong on smaller, clean datasets |
-
-*(Fill in your actual numbers — this table is the single most important part of the README for recruiters skimming.)*
-
-![Model Comparison](assets/comparison_chart.png)
 
 ## Tech Stack
 Python · scikit-learn · pandas · NumPy · Matplotlib · Seaborn
@@ -32,7 +22,7 @@ Python · scikit-learn · pandas · NumPy · Matplotlib · Seaborn
 ## Project Structure
 ```
 ml-algorithms-from-scratch/
-├── notebooks/       # Notebook of EDA & Models
+├── notebooks/       # one notebook per algorithm & EDA
 ```
 
 ## How to Run
@@ -50,3 +40,4 @@ jupyter notebook notebooks/01_linear_regression.ipynb
 
 ## Author
 **Bilal Tariq** — Final Year Mechatronics Engineering | Founder & CTO, Embotics
+
