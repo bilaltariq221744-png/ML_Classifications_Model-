@@ -6,7 +6,7 @@ Implementation and side-by-side benchmarking of core machine learning algorithms
 Most ML tutorials show you *how* to call `.fit()`. This repo focuses on *why* each algorithm behaves the way it does — bias/variance tradeoffs, decision boundaries, and where each one breaks down — through direct implementation and comparison.
 
 ## Algorithms covered
-| Algorithm | Type | Notebook |
+| Algorithm | Type | 
 |---|---|---|
 | Linear Regression | Regression | 
 | Logistic Regression | Classification | 
